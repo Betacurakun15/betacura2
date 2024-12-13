@@ -1,0 +1,106 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    overflow: hidden;
+    background-repeat: no-repeat;
+
+  }
+
+  
+  .main {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 5px rgb(25, 236, 35);
+    width: 350px;
+    height: 320px;
+    border-radius: 40px;
+    backdrop-filter: calc(4px);
+    animation: slideIn 1s ease-in-out; 
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(236, 247, 232); 
+  }
+  
+  input[type="text"],                                                                                                                                  
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2bpx solid rgb(212, 11, 11);
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color:white; 
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+   outline: none;
+    border-color: #0aec1d; 
+    box-shadow: 0 0 5px rgba(25, 228, 35, 0.2);
+  }
+  
+  button {
+    background-color:blacksss;
+    border-radius: 20px;
+    color: rgb(0, 3, 1);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    opacity: 1;
+    transform: scale(1.05); 
+    box-shadow: 0 2px 5px rgba(202, 14, 14, 0.2);
+  }
+  
+  .forgot {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: rgb(236, 225, 228);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  label {
+    color: rgb(226, 214, 217);
+  }
+  
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  } 
+  .login{
+    color:black;
+  }
